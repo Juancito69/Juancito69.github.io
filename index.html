@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JM EXPRESS</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <h1><img src="img/icono0.jpeg" alt=""> JM EXPRESS </h1>     
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                        <img src="img/cart.png" alt="">
+                        <div id="carrito">
+                            <p class="vacio">carrito vacio</p>
+                            <table id="lista-carrito" class="u-full.width">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Platillos</th>
+                                        <th>Precios</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                   
+                                </tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito"
+                            class="button u-full-width">vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="six columns">
+                <div class="contenido-hero">
+                    <h2>Pide tu comida favorita</h2>
+                    <p>Todos los productos con descuento</p>
+                    <form>
+                        <input class="u-full-width" type="text" placeholder="¿Que te gustaria probar?" id="buscador">
+                        <input type="submit" class="submit-buscador">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="barra">
+    <div class="container">
+        <div class="row">
+            <div class="four columns icono icono1">
+                <p> Variedad de platillos diferentes<br>
+                    Explora los nuevos platillos</p>
+            </div>
+            <div class="four columns icono icono2">
+                <p> Cocinero con experiencia<br>
+                    Prueba las nuevas combinaciones</p>
+            </div>
+            <div class="four columns icono icono3">
+                <p>Bebida ilimitada<br>
+                    Prueba tu bebida favorita</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="lista-platillos" class="container">
+    <h1 class="encabezado">Pedidos en Linea</h1>
+
+    <div class="row">
+        <div class="four columns">
+            <div class="card">
+                <img src="img/Choripapa.jpeg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Choripapa</h4>
+                    <p>Bebida ilimitada</p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$2.00<span class="u-pull-right">$1.25</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/Salchipapa.jpeg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Salchipapa</h4>
+                    <p>Bebida ilimitada</p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$1.50 <span class="u-pull-right">$1.00</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/papipollo.jpeg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Papipollo</h4>
+                    <p>Bebida ilimitada</p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$3.00 <span class="u-pull-right">$2.00</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="four columns">
+            <div class="card">
+                <img src="img/papicarne.jpeg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Papicarne</h4>
+                    <p>Bebida ilimitada</p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$2.00 <span class="u-pull-right">$1.25</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/clasica.jpeg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Hamburguesa clasica</h4>
+                    <p>Bebida ilimitada</p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$5.50 <span class="u-pull-right">$2.25</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/vege.jpeg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Hamburguesa vegetariana</h4>
+                    <p>Bebida ilimitada</p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$5.25 <span class="u-pull-right">$2.00</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="four columns">
+            <div class="card">
+                <img src="img/doble.jpeg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Hamburguesa doble</h4>
+                    <p>Bebida ilimitada</p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$11.00 <span class="u-pull-right">$5.85</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/sw.jpeg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Sandwich</h4>
+                    <p>Bebida ilimitada</p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$2.00 <span class="u-pull-right">$1.25</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/peperoni.jpeg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Pizza de pepperoni</h4>
+                    <p>Bebida ilimitada</p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$2.00 <span class="u-pull-right">$1.25</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="four columns">
+            <div class="card">
+                <img src="img/hawai.jpeg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Pizza hawaiana</h4>
+                    <p>Bebida ilimitada</p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$2.00 <span class="u-pull-right">$1.25</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/jamon.jpeg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Pizza de jamon y queso
+                    </h4>
+                    <p>Bebida ilimitada</p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$2.00 <span class="u-pull-right">$1.25</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/hot.jpeg" class="imagen-platillo u-full-width">
+                <div class="info-card">
+                    <h4>Hot dog con papas</h4>
+                    <p>Bebida ilimitada</p>
+                    <img src="img/estrellas.png">
+                    <p class="precio">$2.25 <span class="u-pull-right">$1.00</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <nav class="menu">
+                    <a class="enlace" href="#">Pedidos a domicilio</a>
+                    <a class="enlace" href="#">Pedidos en linea</a>
+                    <a class="enlace" href="#">Pedidos por telefono</a>
+                    <a class="enlace" href="#">Menu</a>
+                    <a class="enlace" href="#">Bebidas</a>
+                </nav>
+            </div>
+            <div class="four columns">
+                <nav class="menu">
+                    <a class="enlace" href="#">Restaurante</a>
+                    <a class="enlace" href="#">Ubicacion</a>
+                    <a class="enlace" href="https://wa.me/593962053843">Telefono</a> 
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+<section class="footer">
+
+    <div class="margin">
+    
+      <div class="menu-footer">
+      <ul>
+      <a href="#home">Redes Sociales</a>
+      <li><a href="https://www.instagram.com/express.jm/" target="_blank"><img src="img/ig.jpg" width="100" height="100"></a></li>
+      <li><a href="https://www.facebook.com/juan.matute.39794/" target="_blank"><img src="img/fbc.png" width="100" height="100"></a></li>
+    </ul>
+      
+      
+      </div>
+    
+    
+    </section>    
+    
+    
+    </div>
+<script src="js/app.js"></script>  
+</body>
+</html>
